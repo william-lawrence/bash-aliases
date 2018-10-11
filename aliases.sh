@@ -20,6 +20,9 @@ alias gaa='git add -A'
 # Example: gcm "This is my commit message describing the changes"
 alias gcm='git commit -m'
 
+# Git status
+alias gs='git status'
+
 case "$TERM" in
 xterm*)
 	# The following programs are known to require a Win32 Console
