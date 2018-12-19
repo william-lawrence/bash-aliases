@@ -13,15 +13,18 @@ alias xx='exit'
 
 # GIT ALIASES
 
-# Adds all the changes to staging.
+# adds all the changes to staging.
 alias gaa='git add -A'
 
 # Creates a new commit with all staged files and uses the given message as the commit's message.
 # Example: gcm "This is my commit message describing the changes"
 alias gcm='git commit -m'
 
-# Git status
+# git status
 alias gs='git status'
+
+# git add
+alias ga='git add'
 
 case "$TERM" in
 xterm*)
