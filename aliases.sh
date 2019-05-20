@@ -26,6 +26,9 @@ alias gs='git status'
 # git add
 alias ga='git add'
 
+# git checkout
+alias gc='git checkout'
+
 case "$TERM" in
 xterm*)
 	# The following programs are known to require a Win32 Console
